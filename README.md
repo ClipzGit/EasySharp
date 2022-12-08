@@ -3,22 +3,31 @@ Standard C# functions made Easy.
 This is a class Lib that can be used by those who would like to write to the console or store data faster eliminating headache causing tasks by the Standard **Console** functions. 
 
 ## Features 
-> `EasyC.Title` | Set the title or loop 3 other titles
+> `EasySharp.Title` | Set the title or loop 3 other titles
 
 > Parameters : text (string), loop_titles (bool), title_one (string), title_two (string), title_three (string)
 
 **Example:**
 ```
 // Normal Title
-EasyC.Title("Hello World!"); 
+EasySharp.Title("Hello World!"); 
 
 // Looping Titles
-EasyC.Title("Hello World", true, "title_1", "title_2", "title_3")
+EasySharp.Title("Hello World", true, "First Loop", "Second Loop", "Third Loop")
 ```
 
-> `EasyC.WriteLine` | Write a customisable line 
-**Usage:**
+> `EasySharp.WriteLine` | Write basic line or 'true' for underlined effect (Default underlined icon is "=")
+
+> Parameters : text (string), underlined (bool), underline_icon (char)
+
+**Example:**
 ```
-//Parameters : text, txt_color, bool underline, bool uppercase
-EasyC.Writeline("Hello World!", ConsoleColor.Blue, true, true);
+// Without Underline
+EasySharp.WriteLine("Hello World", false);
+
+// With Underline
+EasySharp.WriteLine("Hello World", true);
+
+// With Underline + Custom Underline Icon
+EasySharp.WriteLine("Hello World", true, '-');
 ```
