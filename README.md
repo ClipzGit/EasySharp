@@ -16,6 +16,8 @@ EasySharp.Title("Hello World!");
 EasySharp.Title("Hello World", true, "First Loop", "Second Loop", "Third Loop")
 ```
 
+***
+
 > `EasySharp.WriteLine` | Write basic line or 'true' for underlined effect (Default underlined icon is "=")
 
 > Parameters : text (string), underlined (bool), underline_icon (char)
