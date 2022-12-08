@@ -45,3 +45,31 @@ EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, false);
 // With Colored Text + Underline
 EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, true);
 ```
+
+
+> `EasySharp.WriteBackgroundLine` | Write a colored line with background color and option for underlined effect
+
+> Parameters : text (string), color (ConsoleColor), underlined (bool), underline_icon (char)
+
+**Example:**
+```
+// With Colored Text
+EasySharp.WriteBackgroundLine("Hello World", ConsoleColor.Blue, false);
+
+// With Colored Text + Underline
+EasySharp.WriteBackgroundLine("Hello World", ConsoleColor.Blue, true);
+```
+
+
+> `EasySharp.CustomLine` | Write a colored line with background color and option for underlined effect
+
+> Parameters : text (string), text_color (ConsoleColor), bg_color (ConsoleColor), underlined (bool), underline_icon (char)
+
+**Example:**
+```
+// With Colored Text
+EasySharp.WriteCustomLine("Yellow pink", ConsoleColor.Yellow, ConsoleColor.Magenta, false);
+
+// With Colored Text + Underline
+EasySharp.WriteCustomLine("Yellow pink", ConsoleColor.Yellow, ConsoleColor.Magenta, true);
+```
