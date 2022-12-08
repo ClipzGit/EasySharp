@@ -79,3 +79,16 @@ EasySharp.WriteCustomLine("Yellow pink", ConsoleColor.Yellow, ConsoleColor.Magen
 // With Colored Text + Underline
 EasySharp.WriteCustomLine("Yellow pink", ConsoleColor.Yellow, ConsoleColor.Magenta, true);
 ```
+
+
+***
+### DrawMenu
+> `EasySharp.DrawMenu` | Draw a menu using an array
+string[] menu_items, ConsoleColor text_color
+> Parameters : menu_items (string[]), text_color (ConsoleColor)
+
+**Example:**
+```
+EasySharp.DrawMenu(new string[] { "Item 1", "Item 2" }, ConsoleColor.Cyan);
+
+```
