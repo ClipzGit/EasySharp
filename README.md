@@ -4,7 +4,7 @@ This is a class Lib that can be used by those who would like to write to the con
 
 ## Features 
 > `EasyC.Title` | Set the title or loop 3 other titles
-> \n
+
 > Parameters : text (string), loop_titles (bool), title_one (string), title_two (string), title_three (string)
 **Usage:**
 ```
