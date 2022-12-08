@@ -31,3 +31,17 @@ EasySharp.WriteLine("Hello World", true);
 // With Underline + Custom Underline Icon
 EasySharp.WriteLine("Hello World", true, '-');
 ```
+
+
+> `EasySharp.WriteColoredLine` | Write a colored line with text color and option for underlined effect
+
+> Parameters : text (string), color (ConsoleColor), underlined (bool), underline_icon (char)
+
+**Example:**
+```
+// With Colored Text
+EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, false);
+
+// With Colored Text + Underline
+EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, true);
+```
