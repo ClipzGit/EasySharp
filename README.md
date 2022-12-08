@@ -1,6 +1,6 @@
 # EasySharp
 Standard C# functions made Easy.
-This is a class Lib that can be used by those who would like to write to the console or store data faster eliminating headache causing tasks with the Standard **Console** functions. 
+This is a class Lib that can be used by those who would like to write to the console or store data faster eliminating headache causing tasks by the Standard **Console** functions. 
 
 ## Features 
 > `EasyC.Title` | Set the title or loop 3 other titles
