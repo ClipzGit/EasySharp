@@ -23,7 +23,7 @@ EasySharp.Title("Hello World", true, "First Loop", "Second Loop", "Third Loop")
 **Example:**
 ```
 // Without Underline
-EasySharp.WriteLine("Hello World", false);
+EasySharp.WriteLine("Hello World");
 
 // With Underline
 EasySharp.WriteLine("Hello World", true);
