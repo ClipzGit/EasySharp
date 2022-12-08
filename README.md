@@ -1,5 +1,5 @@
 # EasySharp
-Standard C# functions made Easy
+Standard C# functions made Easy.
 This is a class Lib that can be used by those who would like to write to the console or store data faster eliminating headache casuing tasks with the Standard **Console** functions. 
 
 ## Features 
