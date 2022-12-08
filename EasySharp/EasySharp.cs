@@ -129,5 +129,16 @@ namespace EasySharp
              }
           
         }
+
+        // Draw a menu using an array
+        public static void DrawMenu(string[] menu_items, ConsoleColor text_color)
+        {
+            for (int i = 0; i < menu_items.Length; i++)
+            {
+                Console.ForegroundColor = text_color;
+                Console.WriteLine("{0}# {1}", i + 1, menu_items[i]);
+                Console.ResetColor();
+            }
+        }
     }
 }
