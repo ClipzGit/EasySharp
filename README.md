@@ -3,6 +3,7 @@ Standard C# functions made Easy.
 This is a class Lib that can be used by those who would like to write to the console or store data faster eliminating headache causing tasks by the Standard **Console** functions. 
 
 ## Features 
+### Title 
 > `EasySharp.Title` | Set the title or loop 3 other titles
 
 > Parameters : text (string), loop_titles (bool), title_one (string), title_two (string), title_three (string)
@@ -17,7 +18,7 @@ EasySharp.Title("Hello World", true, "First Loop", "Second Loop", "Third Loop")
 ```
 
 ***
-
+### WriteLine
 > `EasySharp.WriteLine` | Write basic line or 'true' for underlined effect (Default underlined icon is "=")
 
 > Parameters : text (string), underlined (bool), underline_icon (char)
@@ -34,7 +35,8 @@ EasySharp.WriteLine("Hello World", true);
 EasySharp.WriteLine("Hello World", true, '-');
 ```
 
-
+***
+### WriteColoredLine
 > `EasySharp.WriteColoredLine` | Write a colored line with text color and option for underlined effect
 
 > Parameters : text (string), color (ConsoleColor), underlined (bool), underline_icon (char)
@@ -48,7 +50,8 @@ EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, false);
 EasySharp.WriteColoredLine("Hello World", ConsoleColor.Blue, true);
 ```
 
-
+***
+### WriteBackgroundLine
 > `EasySharp.WriteBackgroundLine` | Write a colored line with background color and option for underlined effect
 
 > Parameters : text (string), color (ConsoleColor), underlined (bool), underline_icon (char)
@@ -62,7 +65,8 @@ EasySharp.WriteBackgroundLine("Hello World", ConsoleColor.Blue, false);
 EasySharp.WriteBackgroundLine("Hello World", ConsoleColor.Blue, true);
 ```
 
-
+***
+### CustomLine
 > `EasySharp.CustomLine` | Write a colored line with background color and option for underlined effect
 
 > Parameters : text (string), text_color (ConsoleColor), bg_color (ConsoleColor), underlined (bool), underline_icon (char)
