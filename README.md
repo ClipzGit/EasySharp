@@ -84,7 +84,6 @@ EasySharp.WriteCustomLine("Yellow pink", ConsoleColor.Yellow, ConsoleColor.Magen
 ***
 ### DrawMenu
 > `EasySharp.DrawMenu` | Draw a menu using an array
-string[] menu_items, ConsoleColor text_color
 
 > Parameters : menu_items (string[]), text_color (ConsoleColor)
 
@@ -93,3 +92,32 @@ string[] menu_items, ConsoleColor text_color
 EasySharp.DrawMenu(new string[] { "Item 1", "Item 2" }, ConsoleColor.Cyan);
 
 ```
+
+
+***
+### RandomNumb
+> `EasySharp.RandomNumb` | Randomly chooses a number and outputs to the console
+
+> Parameters : numbers (double[])
+
+**Example:**
+```
+// Numbers are stored inside an array and randomly selected
+EasySharp.RandomNumb(new double[] { 1, 2, 3 });
+
+```
+
+
+***
+### RandomWord
+> `EasySharp.RandomWord` | Randomly chooses a word and outputs to the console
+
+> Parameters : words (string[])
+
+**Example:**
+```
+// Words are stored inside an array and randomly selected
+EasySharp.RandomWord(new string[] { "Apple", "Orange", "Pear" });
+
+```
+
