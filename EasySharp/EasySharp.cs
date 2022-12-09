@@ -140,5 +140,25 @@ namespace EasySharp
                 Console.ResetColor();
             }
         }
+
+        // Randomiser - Randomly choose an integer from an array
+        public static void RandomNumb(double[] numbers)
+        {
+            Random rnd = new Random();
+            int output = rnd.Next(numbers.Length);
+
+            Console.WriteLine(output);
+        }
+
+        // Randomiser - Randomly choose a string 
+        public static void RandomWord(string[] words)
+        {
+            Random rnd = new Random(); 
+            int chosen = rnd.Next(words.Length);
+
+            Console.WriteLine(words[chosen]);
+        }
+
+    
     }
 }
