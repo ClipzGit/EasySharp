@@ -172,8 +172,22 @@ namespace EasySharp
             string output = word.Substring(start, end);
             return output;
         }
-        
 
-    
+        // Get the current Date 
+
+        public class Time
+        {
+            public static void DayName()
+            {
+                Console.WriteLine(DateTime.Today.DayOfWeek);
+            }
+
+            public static void Date()
+            {
+                Console.WriteLine(DateTime.Today.Date);
+            }
+        }
+
+
     }
 }
