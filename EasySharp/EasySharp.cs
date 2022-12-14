@@ -6,22 +6,6 @@ namespace EasySharp
 {
     public class EasySharp
     {
-        class Requests
-        {
-            public static void Get(string url)
-            {
-
-            }
-
-            public static void PostJSON(string url, string[] json_data)
-            {
-                foreach (var data in json_data)
-                {
-                    // Echo the given data
-                    Console.WriteLine(data);
-                }
-            }
-        }
         // Set Console Title or Loop it
         public static async Task Title(string title = "Console Window", bool loop_titles = false, string title_one = "", string title_two = "", string title_three = "")
         {
@@ -175,6 +159,19 @@ namespace EasySharp
             Console.WriteLine(words[chosen]);
         }
 
+        // Extract the first letter of a given word
+        public static string ExtractFirstLetter(string word)
+        {
+            string output = word.Substring(0, 1);
+            return output;
+        }
+
+        // Extract a letter in a specific position
+        public static string ExtractLetterCustom(string word, int start = 0, int end = 1)
+        {
+            string output = word.Substring(start, end);
+            return output;
+        }
         
 
     
