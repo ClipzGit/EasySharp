@@ -6,6 +6,19 @@ namespace EasySharp
 {
     public class EasySharp
     {
+        public class Time
+        {
+            public static void DayName()
+            {
+                Console.WriteLine(DateTime.Today.DayOfWeek);
+            }
+
+            public static void Date()
+            {
+                Console.WriteLine(DateTime.Today.Date);
+            }
+        }
+
         // Set Console Title or Loop it
         public static async Task Title(string title = "Console Window", bool loop_titles = false, string title_one = "", string title_two = "", string title_three = "")
         {
@@ -174,19 +187,6 @@ namespace EasySharp
         }
 
         // Get the current Date 
-
-        public class Time
-        {
-            public static void DayName()
-            {
-                Console.WriteLine(DateTime.Today.DayOfWeek);
-            }
-
-            public static void Date()
-            {
-                Console.WriteLine(DateTime.Today.Date);
-            }
-        }
 
 
     }
